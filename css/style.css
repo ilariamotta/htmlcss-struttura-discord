@@ -7,9 +7,42 @@
 
 /* DEBUG */
 
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 600px;
+    min-height: 30px;
+    margin: 10px 0;
+    background-color: darkorange;
+    border: 2px dotted black
+
+
+
+}
+
 
 /* UTILITY */
 
+
 /* HEADER */
+header {
+    display: flex;
+    background-color: lightblue;
+    justify-content: center;
+    min-height: 60px;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+li {
+    display: inline;
+}
+
 /* MAIN */
 /* FOOTER */
